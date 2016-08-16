@@ -2,7 +2,7 @@
 
 angular.module('confusionApp',['ui.router'])    
       //  configuring the router
-    config(function($stateProvider, $urlRouterProvider){
+    .config(function($stateProvider, $urlRouterProvider){
       $stateProvider
       //route for the homepage
       .state('app',{

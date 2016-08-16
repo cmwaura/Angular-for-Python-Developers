@@ -6,3 +6,11 @@ bower_components
 Gruntfile.js 
 package.json
 bower.json  
+
+## images
+*.png
+*.jpg
+*.jpeg
+
+.jsintrc
+.jshintrc
