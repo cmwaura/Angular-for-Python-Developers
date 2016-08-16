@@ -66,10 +66,12 @@ angular.module('confusionApp')
             };
         }])
 
-        .controller('DishDetailController', ['$scope','menuFactory', 
-          function($scope, menuFactory) {
+        .controller('DishDetailController', ['$scope','$stateParams','menuFactory', 
+          // use of a routeparameter to get a specific page of the dish details.
+          function($scope, $stateParams, menuFactory) {
+              // convert string to int and pass it as a param to getDish function
+             var dish= menuFactory.getDish(parseInt($stateParams.id,10));
 
-             var dish= menuFactory.getDish(3);
             $scope.dish = dish;
                     
 

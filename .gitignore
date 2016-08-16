@@ -1,0 +1,8 @@
+#folders
+
+dist
+node_modules
+bower_components 
+Gruntfile.js 
+package.json
+bower.json  
