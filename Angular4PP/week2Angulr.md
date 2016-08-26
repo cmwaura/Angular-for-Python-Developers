@@ -50,6 +50,7 @@ Create a distrib folder and clean up the distrib folder:
 	npm install grunt-contrib-clean --save-dev
 
 Config:
+
 	copy:{
 		dist:{
 		cwd:'app'
