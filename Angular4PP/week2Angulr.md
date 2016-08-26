@@ -4,7 +4,8 @@ Web Tools: Grunt
 - Grunt: Task runner based in configuration of tasks
 -installing Grunt
 
-	npm install -g grunt-cli
+		npm install -g grunt-cli
+		
 installing grunt locally
 
 Configuring Grunt
@@ -119,7 +120,7 @@ config:
 			encoding:'utf-8', algorithm, 'md5', length:20
 
 	}
-}
+	}
 
 
 Gulp.
@@ -197,7 +198,7 @@ makes use of the node module del
 	
 	gulp.task('clean', function(){
 		return del(['dist']);
-	});
+		});
 
 Usemin
 ------
