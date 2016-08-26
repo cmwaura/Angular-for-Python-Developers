@@ -98,9 +98,11 @@ UseminPrepare
 
 - config:
 
-	useminPrepare:{
-		html:'app/menu.html',
-		options:{dest:'dist'}
+		useminPrepare:{
+		
+			html:'app/menu.html',
+			options:{dest:'dist'}
+		
 		}
 
 - will automatically generate config info for concat, cssmin and uglify tasks
