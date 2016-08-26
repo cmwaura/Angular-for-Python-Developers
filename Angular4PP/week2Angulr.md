@@ -3,6 +3,7 @@ Web Tools: Grunt
 
 - Grunt: Task runner based in configuration of tasks
 -installing Grunt
+
 	npm install -g grunt-cli
 installing grunt locally
 
@@ -61,6 +62,7 @@ Config:
 		}
 	}
 for cleaning the dist folder
+
 	clean {
 		build:{
 			src['dist/']
@@ -89,10 +91,12 @@ UseminPrepare
 -------------
 
 - look for block config in an html file
-<!-- build:css styles/main.css -->
-<!--endbuild -->
+
+	<!-- build:css styles/main.css -->
+	<!--endbuild -->
 
 - config:
+
 	useminPrepare:{
 		
 		html:'app/menu.html',
@@ -109,6 +113,7 @@ Revision your files:adds a revision tag to the name of the file
 	eg: main.css --> main.2343433235.css
 
 config:
+
 	filerev:{
 		option:{
 			encoding:'utf-8', algorithm, 'md5', length:20
